@@ -1,3 +1,4 @@
+#python
 f = open('76-0.txt')
 data1 = f.read()
 f.close()
