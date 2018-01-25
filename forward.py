@@ -25,7 +25,7 @@ b1=np.load('b1.npy')
 b2=np.load('b2.npy')
 
 for i in range(100000):
-    tmp=random_string(3200)
+    tmp=random_string(32)
     wdata=[]
     for w in tmp:
         wdata.append(ord(w))
